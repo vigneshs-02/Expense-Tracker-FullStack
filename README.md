@@ -5,6 +5,7 @@ A full-stack Expense Tracker web application built using React (Frontend) and Sp
 This project allows users to register, login, track income & expenses, visualize spending trends, and manage transactions securely.
 
 🚀 Tech Stack
+
 🔹 Frontend
 
 React (Vite)

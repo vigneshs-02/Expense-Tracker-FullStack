@@ -1,0 +1,123 @@
+.dashboard {
+  padding: 30px;
+}
+
+.dashboard h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+/* CARDS */
+.cards {
+  display: flex;
+  gap: 25px;
+}
+
+.card {
+  background: #ffffff;
+  padding: 20px 25px;
+  width: 265px;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.04);
+}
+
+.card p {
+  font-size: 14px;
+  color: #6b7280;
+  margin-bottom: 8px;
+}
+
+.card h3 {
+  font-size: 26px;
+  font-weight: 700;
+}
+
+.income {
+  border-left: 6px solid #22c55e;
+}
+
+.expense {
+  border-left: 6px solid #ef4444;
+}
+
+.balance {
+  border-left: 6px solid #8b5cf6;
+}
+
+/* BOTTOM SECTION */
+.dashboard-bottom {
+  margin-top: 40px;
+  display: flex;
+  gap: 30px;
+}
+
+/* RECENT */
+.recent {
+  flex: 1;
+  background: #fff;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.04);
+  max-height: 350px;
+  display: flex;
+  flex-direction: column;
+}
+
+.recent-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.recent ul {
+  list-style: none;
+}
+
+.recent li {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0;
+  border-bottom: 1px solid #eee;
+}
+
+.plus {
+  color: #22c55e;
+  font-weight: 600;
+}
+
+.minus {
+  color: #ef4444;
+  font-weight: 600;
+}
+
+/* Scroll only when showAll */
+.scrollable {
+  overflow-y: auto;
+  max-height: 250px;
+}
+
+/* SEE ALL BUTTON */
+.see-all-btn {
+  background: none;
+  border: none;
+  color: #4f46e5;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.see-all-btn:hover {
+  text-decoration: underline;
+}
+
+/* OVERVIEW */
+.overview {
+  flex: 0.8;
+  background: #fff;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.04);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

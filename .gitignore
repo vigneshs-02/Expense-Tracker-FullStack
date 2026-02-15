@@ -1,0 +1,19 @@
+# React
+Expense-Tracker-frontend/node_modules
+Expense-Tracker-frontend/build
+
+# Spring Boot
+Expense-Tracker-backend/target
+
+# Eclipse / IDE junk
+.metadata
+.project
+
+# Logs
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+*.docx
